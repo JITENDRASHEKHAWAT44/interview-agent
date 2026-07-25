@@ -1,31 +1,22 @@
-google-generativeai
-langchain
-langchain-community
-langchain-google-genai
+# Core app dependencies
+streamlit>=1.39.0
+python-dotenv>=1.0.1
 
-langchain-openai
-langchain-mistralai
+# Resume parsing
+pymupdf>=1.26.0
 
-streamlit
+# LLM and AI services
+langchain-mistralai>=0.2.0
+langchain-core>=0.3.0
+sarvamai>=0.1.0
 
-fastapi
-uvicorn
-python-multipart
+# Audio / speech features
+sounddevice>=0.4.0
+scipy>=1.14.0
+playsound>=1.3.0
+faster-whisper>=1.0.0
+numpy>=1.26.0
 
-pymupdf
-pdfplumber
-python-docx
-
-pandas
-numpy
-
-python-dotenv
-
-SpeechRecognition
-PyAudio
-
-plotly
-requests
-
-opencv-python
-mediapipe
+# PowerShell install example:
+# .\Ai\Scripts\Activate.ps1
+# pip install -r requirements.txt
