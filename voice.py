@@ -70,7 +70,6 @@ def Speak_SarvamAi(text):
 
     audio_stream = client.text_to_speech.convert_stream(
         text=text,
-        target_language_code="en-IN",
         speaker="shubh",
         model="bulbul:v3",
         pace=1,
@@ -91,7 +90,7 @@ def Speak_SarvamAi(text):
         pass
 
 resume = parse_resume(
-    r"C:\Users\LENOVO\Desktop\uhmmm\LangChain\Projects\AI Interview Coach\chutiya.pdf"
+    r"C:\Users\LENOVO\Desktop\uhmmm\LangChain\Projects\AI Interview Coach\Jitendra_Shekhawat_Resume (1).pdf"
 )
 
 
