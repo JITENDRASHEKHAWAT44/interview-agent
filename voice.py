@@ -70,6 +70,7 @@ def Speak_SarvamAi(text):
 
     audio_stream = client.text_to_speech.convert_stream(
         text=text,
+        target_language_code="en-IN",
         speaker="shubh",
         model="bulbul:v3",
         pace=1,
