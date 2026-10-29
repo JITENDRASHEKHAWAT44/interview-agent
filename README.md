@@ -219,4 +219,4 @@ Built with ❤️ using Python, Streamlit, LangChain, Mistral AI, and Sarvam AI.
 
 
 ## URL
-url = https://interview-voice-agent.streamlit.app/
+url = https://shortlist-murex.vercel.app/
