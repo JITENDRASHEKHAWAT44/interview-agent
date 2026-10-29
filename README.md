@@ -28,10 +28,12 @@ The application conducts a personalized interview, asks adaptive questions, eval
 ## 🛠️ Tech Stack
 
 ### Frontend
-- Streamlit
+- **React 18 + Vite + Tailwind CSS** (Modern UI in [frontend/](file:///frontend/))
+- **Streamlit** (UI in [NEW_UI.py](file:///NEW_UI.py))
 
 ### Backend
-- Python
+- **FastAPI** ([api_server.py](file:///api_server.py))
+- **Python / LangChain**
 
 ### AI Models
 - Mistral AI (Interview Generation & Evaluation)
