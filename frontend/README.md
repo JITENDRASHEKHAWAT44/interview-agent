@@ -1,6 +1,6 @@
-# 🎙️ AI Interview Coach — Modern Frontend UI
+# Shortlist - AI Interview Coach
 
-A production-grade, accessible, and responsive user interface for the **AI Interview Coach**, crafted with **React 18**, **Vite**, **Tailwind CSS**, and **Lucide Icons** following the [Impeccable Design System](https://github.com/pbakaus/impeccable).
+A production-grade, accessible, and responsive user interface for **Shortlist - AI Interview Coach**, crafted with **React 18**, **Vite**, **Tailwind CSS**, and **Lucide Icons**.
 
 ---
 
@@ -25,7 +25,7 @@ A production-grade, accessible, and responsive user interface for the **AI Inter
   - 4-Week structured learning roadmap with weekly milestones.
   - One-click Markdown copy and PDF print formatting.
 - **Standalone & Full-Stack Ready**:
-  - Automatically connects to the local FastAPI backend (`http://127.0.0.1:8000/api`).
+  - Automatically connects to the local FastAPI backend.
   - Seamless simulated fallback mode if the backend is offline so all 10 questions and reports can be previewed anytime.
 
 ---
@@ -42,7 +42,7 @@ npm install
 npm run dev
 ```
 
-The UI will be accessible at: **`http://localhost:5173`**
+The UI will be accessible at: **https://shortlist-murex.vercel.app/**
 
 ### 3. Build for Production
 ```bash

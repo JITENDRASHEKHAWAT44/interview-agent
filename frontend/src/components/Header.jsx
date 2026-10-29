@@ -10,8 +10,8 @@ export default function Header({ onReset, isConnected, currentStage }) {
         <Logo size={32} />
         <div className="flex items-center gap-2">
           <span className="font-serif text-lg text-ink-900 tracking-tight">Shortlist</span>
-          <span className="text-parchment-400 font-light hidden sm:block">·</span>
-          <span className="text-xs text-ink-400 font-medium hidden sm:block">AI Interview Coach</span>
+          <span className="text-parchment-400 font-light">-</span>
+          <span className="text-xs text-ink-500 font-medium">AI Interview Coach</span>
         </div>
       </div>
 

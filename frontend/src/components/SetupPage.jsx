@@ -67,7 +67,10 @@ export default function SetupPage({ onStart, isSubmitting }) {
 
         <div className="relative z-10">
           <Logo size={44} className="[&_rect]:fill-parchment-200/10 [&_path]:stroke-parchment-300" />
-          <h1 className="font-serif text-4xl text-parchment-100 mt-8 leading-tight">
+          <p className="mt-4 text-xs font-mono uppercase tracking-widest text-parchment-400">
+            Shortlist - AI Interview Coach
+          </p>
+          <h1 className="font-serif text-4xl text-parchment-100 mt-2 leading-tight">
             Your adaptive<br />interview coach.
           </h1>
           <p className="mt-4 text-parchment-400 text-sm leading-relaxed max-w-sm">
@@ -100,9 +103,10 @@ export default function SetupPage({ onStart, isSubmitting }) {
       <div className="flex-1 flex flex-col justify-center px-6 py-10 sm:px-12 lg:px-16 overflow-y-auto">
         <div className="max-w-[500px] w-full mx-auto">
           {/* Mobile brand header */}
-          <div className="flex items-center gap-3 mb-8 lg:hidden">
-            <Logo size={32} />
-            <span className="font-serif text-xl text-ink-900">Shortlist</span>
+          <div className="flex items-center gap-2 mb-8 lg:hidden">
+            <Logo size={28} />
+            <span className="font-serif text-lg text-ink-900">Shortlist</span>
+            <span className="text-ink-400 text-xs">- AI Interview Coach</span>
           </div>
 
           <h2 className="text-2xl font-semibold text-ink-900 tracking-tight mb-1">Configure your interview</h2>

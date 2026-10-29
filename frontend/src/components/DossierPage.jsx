@@ -94,7 +94,7 @@ export default function DossierPage({ report, onRestart }) {
   } = report || {}
 
   const handleCopy = () => {
-    const md = `# Candidate Evaluation Report\n\n**Verdict:** ${hiringRecommendation}\n**Score:** ${overallScore}/10\n**ATS:** ${atsScore}/100\n\n## Summary\n${recommendationReason}\n\n## Competencies\n${metrics.map(m => `- ${m.label}: ${m.score}/${m.max}`).join('\n')}\n\n## Strengths\n${strengths.map(s => `- ${s}`).join('\n')}\n\n## Growth Areas\n${weaknesses.map(w => `- ${w}`).join('\n')}\n\n## 4-Week Plan\n${roadmap.map(w => `Week ${w.week}: ${w.title}\n${w.focus}`).join('\n\n')}`
+    const md = `# Shortlist - AI Interview Coach\n## Candidate Evaluation Report\n\n**Verdict:** ${hiringRecommendation}\n**Score:** ${overallScore}/10\n**ATS:** ${atsScore}/100\n\n## Summary\n${recommendationReason}\n\n## Competencies\n${metrics.map(m => `- ${m.label}: ${m.score}/${m.max}`).join('\n')}\n\n## Strengths\n${strengths.map(s => `- ${s}`).join('\n')}\n\n## Growth Areas\n${weaknesses.map(w => `- ${w}`).join('\n')}\n\n## 4-Week Plan\n${roadmap.map(w => `Week ${w.week}: ${w.title}\n${w.focus}`).join('\n\n')}`
     navigator.clipboard.writeText(md)
     setCopied(true)
     setTimeout(() => setCopied(false), 2000)
@@ -107,7 +107,7 @@ export default function DossierPage({ report, onRestart }) {
         <div className="max-w-4xl mx-auto px-6 py-8 flex flex-col sm:flex-row sm:items-center justify-between gap-6">
           <div>
             <div className="flex items-center gap-2 mb-3">
-              <span className="text-xs font-mono uppercase tracking-wider text-ink-400">Evaluation Complete</span>
+              <span className="text-xs font-mono uppercase tracking-wider text-ink-400">Shortlist - Evaluation Report</span>
               <span className="w-1 h-1 rounded-full bg-parchment-300" />
               <Verdict rec={hiringRecommendation} />
             </div>
